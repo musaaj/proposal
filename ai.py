@@ -11,7 +11,7 @@ def load_key(filename):
     file must contain openai api key in json string
     """
     if not isinstance(filename, str):
-        print('Error: Invalid file name')
+        print("Error: Can't find file key.json")
         print('Exitin...')
         sys.exit(1)
     try:
